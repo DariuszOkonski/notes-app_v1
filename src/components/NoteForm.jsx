@@ -28,6 +28,13 @@ const NoteForm = ({ notes, setNotes }) => {
     };
 
     setNotes([...notes, newNote]);
+
+    setFormData({
+      title: "",
+      category: "Work",
+      priority: "Medium",
+      description: "",
+    });
   };
 
   return (
