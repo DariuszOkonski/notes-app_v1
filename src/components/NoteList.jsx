@@ -14,8 +14,8 @@ const NoteList = ({ notes, onDeleteNote }) => {
           note.priority === "High"
             ? "red"
             : note.priority === "Medium"
-              ? "green"
-              : "yellow";
+              ? "orange"
+              : "green";
 
         return (
           <div
