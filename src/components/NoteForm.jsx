@@ -1,6 +1,7 @@
 import { useState } from "react";
 import TextInput from "./inputs/TextInput";
 import SelectInput from "./inputs/SelectInput";
+import TextAreaInput from "./inputs/TextAreaInput";
 
 const NoteForm = ({ notes, setNotes }) => {
   const [formData, setFormData] = useState({
@@ -83,18 +84,12 @@ const NoteForm = ({ notes, setNotes }) => {
             ]}
           />
 
-          <div className="mb-4">
-            <label htmlFor="description" className="block font-semibold">
-              Description
-            </label>
-            <textarea
-              type="text"
-              className="w-full p-2 border rounded-lg"
-              name="description"
-              value={formData.description}
-              onChange={handleChange}
-            ></textarea>
-          </div>
+          <TextAreaInput
+            label="Description"
+            name="description"
+            value={formData.description}
+            onChange={handleChange}
+          />
 
           <button className="w-full bg-purple-500 text-white py-2 rounded-lg cursor-pointer hover:bg-purple-600">
             Add Note
