@@ -4,48 +4,48 @@ import NoteList from "./components/NoteList";
 
 function App() {
   const [notes, setNotes] = useState([
-    {
-      id: 1788236021561,
-      title: "aaa",
-      priority: "High",
-      category: "Work",
-      description: "aaab",
-    },
-    {
-      id: 1788236029352,
-      title: "bbbb",
-      category: "Work",
-      priority: "Medium",
-      description: "bbbad",
-    },
-    {
-      id: 1788236710593,
-      title: "safdasdf",
-      priority: "Low",
-      category: "Ideas",
-      description: "asdfasdfasfd",
-    },
-    {
-      id: 1788236714980,
-      title: "asdfasdf",
-      category: "Work",
-      priority: "Medium",
-      description: "asdfafsdasdfasf",
-    },
-    {
-      id: 1788236717988,
-      title: "asdfasfdasfdasfd",
-      category: "Work",
-      priority: "Medium",
-      description: "asdfasfaf",
-    },
-    {
-      id: 1788236720696,
-      title: "asdfasfasfd",
-      category: "Work",
-      priority: "Medium",
-      description: "asdfasfdasdf",
-    },
+    // {
+    //   id: 1788236021561,
+    //   title: "aaa",
+    //   priority: "High",
+    //   category: "Work",
+    //   description: "aaab",
+    // },
+    // {
+    //   id: 1788236029352,
+    //   title: "bbbb",
+    //   category: "Work",
+    //   priority: "Medium",
+    //   description: "bbbad",
+    // },
+    // {
+    //   id: 1788236710593,
+    //   title: "safdasdf",
+    //   priority: "Low",
+    //   category: "Ideas",
+    //   description: "asdfasdfasfd",
+    // },
+    // {
+    //   id: 1788236714980,
+    //   title: "asdfasdf",
+    //   category: "Work",
+    //   priority: "Medium",
+    //   description: "asdfafsdasdfasf",
+    // },
+    // {
+    //   id: 1788236717988,
+    //   title: "asdfasfdasfdasfd",
+    //   category: "Work",
+    //   priority: "Medium",
+    //   description: "asdfasfaf",
+    // },
+    // {
+    //   id: 1788236720696,
+    //   title: "asdfasfasfd",
+    //   category: "Work",
+    //   priority: "Medium",
+    //   description: "asdfasfdasdf",
+    // },
   ]);
 
   const deleteNote = (id) => {
