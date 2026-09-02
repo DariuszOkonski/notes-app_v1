@@ -7,7 +7,7 @@ function App() {
     {
       id: 1788236021561,
       title: "aaa",
-      priority: "Medium",
+      priority: "High",
       category: "Work",
       description: "aaab",
     },
@@ -21,7 +21,7 @@ function App() {
     {
       id: 1788236710593,
       title: "safdasdf",
-      priority: "High",
+      priority: "Low",
       category: "Ideas",
       description: "asdfasdfasfd",
     },
