@@ -1,8 +1,4 @@
 const Note = ({ note, onDeleteNote }) => {
-  const handleDeleteNote = (id) => {
-    onDeleteNote(id);
-  };
-
   const borderLeftColor =
     note.priority === "High"
       ? "red"
@@ -30,7 +26,7 @@ const Note = ({ note, onDeleteNote }) => {
       </p>
 
       <button
-        onClick={() => handleDeleteNote(note.id)}
+        onClick={() => onDeleteNote(note.id)}
         className="mt-3 text-red-500 cursor-pointer transition hover:text-red-700"
       >
         Delete
